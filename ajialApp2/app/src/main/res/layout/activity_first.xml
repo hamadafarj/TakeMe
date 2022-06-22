@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.FirstActivity">
+
+    <Button
+        android:id="@+id/btn_mange_emp"
+        android:layout_width="150dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="188dp"
+        android:layout_marginEnd="40dp"
+        android:text="ادارة الموظفين"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_mange_holiday"
+        android:layout_width="150dp"
+        android:layout_height="0dp"
+        android:text="ادارة الاجازات الرسمية"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/btn_mange_emp"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btn_mange_emp" />
+
+    <Button
+        android:id="@+id/btn_mange_holiday_emp"
+        android:layout_width="150dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        android:text="ادارة اجازات الموظفين"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="@+id/btn_mange_emp"
+        app:layout_constraintTop_toBottomOf="@+id/btn_mange_emp" />
+
+    <Button
+        android:id="@+id/btn_mange_"
+        android:layout_width="150dp"
+        android:layout_height="0dp"
+        android:text="ادارة الدوام"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/btn_mange_holiday_emp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/btn_mange_holiday"
+        app:layout_constraintTop_toTopOf="@+id/btn_mange_holiday_emp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

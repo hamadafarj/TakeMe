@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1034863390494",
+    "firebase_url": "https://takeme-c3c82.firebaseio.com",
+    "project_id": "takeme-c3c82",
+    "storage_bucket": "takeme-c3c82.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1034863390494:android:a5c1614c1f74e3a29ae30f",
+        "android_client_info": {
+          "package_name": "com.example.takeme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1034863390494-kbiqmhvggl3aqi70b894kk10hmki8932.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcYBtWtbr3LCuU49Ah_o-AQECiOvT3oVg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1034863390494-kbiqmhvggl3aqi70b894kk10hmki8932.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
